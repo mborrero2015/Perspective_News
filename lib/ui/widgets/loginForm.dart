@@ -17,11 +17,11 @@ class _LoginFormState extends State<LoginForm> {
       resizeToAvoidBottomInset: false,
       appBar: AppBar(
           title: Text(
-        "Ingreso a la red social enfocada en estudiantes de periodismo",
-        style: TextStyle(fontSize: 12),
+        "Ingreso a Perspective News",
+        style: TextStyle(fontSize: 18),
       )),
       body: Padding(
-        padding: const EdgeInsets.fromLTRB(20.0, 25.0, 20.0, 12.0),
+        padding: const EdgeInsets.fromLTRB(20.0, 35.0, 20.0, 12.0),
         child: Form(
           key: _formKey,
           child: Column(
