@@ -38,3 +38,11 @@ La pantalla principal tendrá un `bottonNav`, un `tab` para feed de actividades,
 ## Links:
 - [Template repositorio](https://github.com/EjemplosMisionTic2022/ejemplos_servicios_web/tree/main/noticias-service-consumption)
 - [Documentación servicio web](https://developer.nytimes.com/docs/top-stories-product/1/overview)
+
+---
+
+## Authors:
+- [Cindy Vergara Illidge](illidgec@uninorte.edu.co)
+- [John Alexander Urrego](johnu@uninorte.edu.co)
+- [Juan Barrera Caicedo](dbarreraj@uninorte.edu.co)
+- [Milton Borrero Zambrano](miltonborrero@uninorte.edu.co)
