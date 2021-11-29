@@ -9,7 +9,6 @@ import 'package:flutterapp/perspective_newsapp/generatedintrobwidget/generated/G
 import 'package:flutterapp/perspective_newsapp/generatedintrobwidget/generated/Generated942Widget8.dart';
 import 'package:flutterapp/perspective_newsapp/generatedintrobwidget/generated/GeneratedSignalWidget8.dart';
 
-
 class GeneratedIntroBWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
