@@ -7,7 +7,7 @@ import 'package:flutterapp/perspective_newsapp/generatedchatintowidget/Generated
 import 'package:flutterapp/perspective_newsapp/generatedperfilwidget/GeneratedPerfilWidget.dart';
 import 'package:flutterapp/perspective_newsapp/generatedregistwidget/GeneratedRegistWidget.dart';
 import 'package:flutterapp/perspective_newsapp/generatedloginwidget/GeneratedLoginWidget.dart';
-import 'package:flutterapp/perspective_newsapp/generatedintrowwidget/GeneratedIntroWWidget.dart';
+import 'package:flutterapp/perspective_newsapp/ui/widgets/generatedintrowwidget/GeneratedIntroWWidget.dart';
 import 'package:flutterapp/perspective_newsapp/generatedintrobwidget/GeneratedIntroBWidget.dart';
 import 'package:flutterapp/perspective_newsapp/generatededitestadowidget/GeneratedEditEstadoWidget.dart';
 import 'package:flutterapp/perspective_newsapp/generatedconecwidget/GeneratedConecWidget.dart';
@@ -30,7 +30,7 @@ class perspective_newsApp extends StatelessWidget {
       // initialRoute: '/GeneratedEstadosWidget',
       initialRoute: '/GeneratedIntroWWidget',
       routes: {
-        '/GeneratedIntroBWidget': (context) => GeneratedIntroBWidget(),
+        '/ui/widgets/GeneratedIntroBWidget': (context) => GeneratedIntroBWidget(),
 
         '/GeneratedIntroWWidget': (context) => GeneratedIntroWWidget(),
         '/GeneratedLoginWidget': (context) => GeneratedLoginWidget(),
