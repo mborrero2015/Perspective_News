@@ -1,18 +1,28 @@
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-import 'package:flutterapp/perspective_newsapp/generatedestadoswidget/GeneratedEstadosWidget.dart';
-import 'package:flutterapp/perspective_newsapp/generatedconfigwidget/GeneratedConfigWidget.dart';
-import 'package:flutterapp/perspective_newsapp/generatedchatwidget2/GeneratedChatWidget2.dart';
-import 'package:flutterapp/perspective_newsapp/generatedchatintowidget/GeneratedChatIntoWidget.dart';
-import 'package:flutterapp/perspective_newsapp/generatedperfilwidget/GeneratedPerfilWidget.dart';
-import 'package:flutterapp/perspective_newsapp/generatedregistwidget/GeneratedRegistWidget.dart';
-import 'package:flutterapp/perspective_newsapp/generatedloginwidget/GeneratedLoginWidget.dart';
-import 'package:flutterapp/ui/widgets/generatedintrowwidget/GeneratedIntroWWidget.dart';
-import 'package:flutterapp/perspective_newsapp/generatedintrobwidget/GeneratedIntroBWidget.dart';
-import 'package:flutterapp/perspective_newsapp/generatededitestadowidget/GeneratedEditEstadoWidget.dart';
-import 'package:flutterapp/perspective_newsapp/generatedconecwidget/GeneratedConecWidget.dart';
-import 'package:flutterapp/perspective_newsapp/generatedredwidget1/GeneratedRedWidget1.dart';
-import 'package:flutterapp/ui/widgets/generatedajusteswidget3/GeneratedAjustesWidget3.dart';
+// import 'package:get/get.dart';
+
+
+// import 'package:flutterapp/ui/pages/GeneratedAjustesWidget3.dart';
+// import 'package:flutterapp/ui/pages/GeneratedArticWidget.dart';
+// import 'package:flutterapp/ui/pages/GeneratedChatIntoWidget.dart';
+// import 'package:flutterapp/ui/pages/GeneratedChatWidget2.dart';
+// import 'package:flutterapp/ui/pages/GeneratedConecWidget.dart';
+// import 'package:flutterapp/ui/pages/GeneratedConfigWidget.dart';
+// import 'package:flutterapp/ui/pages/GeneratedEditEstadoWidget.dart';
+// import 'package:flutterapp/ui/pages/GeneratedEstadosWidget.dart';
+// import 'package:flutterapp/ui/pages/GeneratedIntroWWidget.dart';
+// import 'package:flutterapp/ui/pages/GeneratedLocationWidget.dart';
+// import 'package:flutterapp/ui/pages/GeneratedLoginWidget.dart';
+// import 'package:flutterapp/ui/pages/GeneratedNewsOtherWidget.dart';
+// import 'package:flutterapp/ui/pages/GeneratedNewsWidget2.dart';
+// import 'package:flutterapp/ui/pages/GeneratedOtherPWidget.dart';
+// import 'package:flutterapp/ui/pages/GeneratedPerfilWidget.dart';
+// import 'package:flutterapp/ui/pages/GeneratedPublicWidget.dart';
+import 'package:flutterapp/ui/pages/GeneratedRedWidget1.dart';
+// import 'package:flutterapp/ui/pages/GeneratedRegistWidget.dart';
+
+
+
 
 void main() {
   runApp(perspective_newsApp());
@@ -28,25 +38,32 @@ class perspective_newsApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      // initialRoute: '/GeneratedEstadosWidget',
-      initialRoute: '/GeneratedIntroWWidget',
+      
+      initialRoute: '/GeneratedRedWidget1',
       routes: {
-        '/ui/widgets/GeneratedIntroBWidget': (context) => GeneratedIntroBWidget(),
-        '/ui/widgets/GeneratedAjustesWidget3': (context) => GeneratedAjustesWidget3(),
 
-        '/GeneratedIntroWWidget': (context) => GeneratedIntroWWidget(),
-        '/GeneratedLoginWidget': (context) => GeneratedLoginWidget(),
-        '/GeneratedRegistWidget': (context) => GeneratedRegistWidget(),
-        '/GeneratedPerfilWidget': (context) => GeneratedPerfilWidget(),
 
-        '/GeneratedEstadosWidget': (context) => GeneratedEstadosWidget(),
-        '/GeneratedConfigWidget': (context) => GeneratedConfigWidget(),
-        '/GeneratedChatWidget2': (context) => GeneratedChatWidget2(),
-        '/GeneratedChatIntoWidget': (context) => GeneratedChatIntoWidget(),
-        
-        '/GeneratedEditEstadoWidget': (context) => GeneratedEditEstadoWidget(),
-        '/GeneratedConecWidget': (context) => GeneratedConecWidget(),
+        // '/GeneratedAjustesWidget3': (context) => GeneratedAjustesWidget3(),
+        // '/GeneratedArticWidget': (context) => GeneratedArticWidget(),
+        // '/GeneratedChatIntoWidget': (context) => GeneratedChatIntoWidget(),
+        // '/GeneratedChatWidget2': (context) => GeneratedChatWidget2(),
+        // '/GeneratedConecWidget': (context) => GeneratedConecWidget(),
+        // '/GeneratedConfigWidget': (context) => GeneratedConfigWidget(),
+        // '/GeneratedEditEstadoWidget': (context) => GeneratedEditEstadoWidget(),
+        // '/GeneratedEstadosWidget': (context) => GeneratedEstadosWidget(),
+        // '/GeneratedIntroWWidget': (context) => GeneratedIntroWWidget(),
+        // '/GeneratedLocationWidget': (context) => GeneratedLocationWidget(),
+        // '/GeneratedLoginWidget': (context) => GeneratedLoginWidget(),
+        // '/GeneratedNewsOtherWidget': (context) => GeneratedNewsOtherWidget(),
+        // '/GeneratedNewsWidget2': (context) => GeneratedNewsWidget2(),
+        // '/GeneratedOtherPWidget': (context) => GeneratedOtherPWidget(),
+        // '/GeneratedPerfilWidget': (context) => GeneratedPerfilWidget(),
+        // '/GeneratedPublicWidget': (context) => GeneratedPublicWidget(),
         '/GeneratedRedWidget1': (context) => GeneratedRedWidget1(),
+        // '/GeneratedRegistWidget': (context) => GeneratedRegistWidget(), 
+        
+
+
       },
     );
   }
