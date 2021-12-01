@@ -87,7 +87,7 @@ class ContentPage extends StatelessWidget {
               ),
               BottomNavigationBarItem(
                 icon: Icon(
-                  Icons.public_rounded,
+                  Icons.chat_rounded,
                   key: Key("chat"),
                 ),
                 label: 'Chats',

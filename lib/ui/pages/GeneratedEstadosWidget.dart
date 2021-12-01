@@ -40,7 +40,6 @@ import 'package:flutterapp/ui/widgets/generatedEstados/GeneratedMediaWidget2.dar
 import 'package:flutterapp/ui/widgets/generatedEstados/GeneratedRectangle8Widget.dart';
 import 'package:flutterapp/ui/widgets/generatedEstados/GeneratedMediaWidget1.dart';
 
-
 class GeneratedEstadosWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -72,12 +71,12 @@ class GeneratedEstadosWidget extends StatelessWidget {
                                 alignment: Alignment.center,
                                 overflow: Overflow.visible,
                                 children: [
-                                  ClipRRect(
-                                    borderRadius: BorderRadius.circular(20.0),
-                                    child: Container(
-                                      color: Color.fromARGB(255, 255, 255, 255),
-                                    ),
-                                  ),
+                                  // ClipRRect(
+                                  //   borderRadius: BorderRadius.circular(20.0),
+                                  //   child: Container(
+                                  //     color: Color.fromARGB(255, 255, 255, 255),
+                                  //   ),
+                                  // ),
                                   Positioned(
                                     left: 34.0,
                                     top: 323.85455322265625,

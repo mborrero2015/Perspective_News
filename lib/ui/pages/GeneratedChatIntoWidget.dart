@@ -37,12 +37,12 @@ class GeneratedChatIntoWidget extends StatelessWidget {
             alignment: Alignment.center,
             overflow: Overflow.visible,
             children: [
-              ClipRRect(
-                borderRadius: BorderRadius.circular(20.0),
-                child: Container(
-                  color: Color.fromARGB(255, 255, 255, 255),
-                ),
-              ),
+              // ClipRRect(
+              //   borderRadius: BorderRadius.circular(20.0),
+              //   child: Container(
+              //     color: Color.fromARGB(255, 255, 255, 255),
+              //   ),
+              // ),
               Positioned(
                 left: 0.0,
                 top: null,

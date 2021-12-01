@@ -17,7 +17,6 @@ import 'package:flutterapp/ui/widgets/generatedRed/GeneratedPinNotActive02Widget
 import 'package:flutterapp/ui/widgets/generatedRed/GeneratedPinNotActive01Widget.dart';
 import 'package:flutterapp/ui/widgets/generatedRed/GeneratedWiFiWidget11.dart';
 
-
 class GeneratedRedWidget1 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -41,12 +40,12 @@ class GeneratedRedWidget1 extends StatelessWidget {
                           alignment: Alignment.center,
                           overflow: Overflow.visible,
                           children: [
-                            ClipRRect(
-                              borderRadius: BorderRadius.zero,
-                              child: Container(
-                                color: Color.fromARGB(255, 255, 255, 255),
-                              ),
-                            ),
+                            // ClipRRect(
+                            //   borderRadius: BorderRadius.zero,
+                            //   child: Container(
+                            //     color: Color.fromARGB(255, 255, 255, 255),
+                            //   ),
+                            // ),
                             Positioned(
                               left: -3.0,
                               top: -14.0,

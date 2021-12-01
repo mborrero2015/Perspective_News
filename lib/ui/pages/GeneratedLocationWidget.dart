@@ -15,7 +15,6 @@ import 'package:flutterapp/ui/widgets/generatedLocation/GeneratedButtonWidget9.d
 import 'package:flutterapp/ui/widgets/generatedLocation/GeneratedAvatarWidget61.dart';
 import 'package:flutterapp/ui/widgets/generatedLocation/GeneratedPinActiveWidget1.dart';
 
-
 class GeneratedLocationWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -33,12 +32,12 @@ class GeneratedLocationWidget extends StatelessWidget {
             alignment: Alignment.center,
             overflow: Overflow.visible,
             children: [
-              ClipRRect(
-                borderRadius: BorderRadius.circular(20.0),
-                child: Container(
-                  color: Color.fromARGB(255, 255, 255, 255),
-                ),
-              ),
+              // ClipRRect(
+              //   borderRadius: BorderRadius.circular(20.0),
+              //   child: Container(
+              //     color: Color.fromARGB(255, 255, 255, 255),
+              //   ),
+              // ),
               Positioned(
                 left: 0.0,
                 top: 590.0,
