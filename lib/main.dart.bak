@@ -1,10 +1,7 @@
 import 'package:flutter/material.dart';
 // import 'package:get/get.dart';
 
-import 'ui/pages/content/content_page.dart';
-
-import '../ui/widgets/appbar.dart';
-import '../ui/widgets/app.dart';
+// import 'package:flutterapp/ui/pages/GeneratedAjustesWidget3.dart';
 // import 'package:flutterapp/ui/pages/GeneratedArticWidget.dart';
 // import 'package:flutterapp/ui/pages/GeneratedChatIntoWidget.dart';
 // import 'package:flutterapp/ui/pages/GeneratedChatWidget2.dart';
@@ -24,7 +21,7 @@ import 'package:flutterapp/ui/pages/GeneratedRedWidget1.dart';
 // import 'package:flutterapp/ui/pages/GeneratedRegistWidget.dart';
 
 void main() {
-  runApp(const App());
+  runApp(app());
 }
 
 class perspective_newsApp extends StatelessWidget {

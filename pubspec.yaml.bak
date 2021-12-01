@@ -129,13 +129,13 @@ name: "flutterapp"
 publish_to: "none"
 version: "1.0.0+1"
 dependencies: 
-  cupertino_icons: ^1.0.4
-  path_drawing: ^0.5.1+1
+  
+  path_drawing: "^0.4.1"
   flutter: 
     sdk: "flutter"
   get: ^4.3.8
 
- 
+  cupertino_icons: ^1.0.2
   connectivity_plus: ^1.0.6
   firebase_core: ^1.7.0
   firebase_auth: ^3.1.2
