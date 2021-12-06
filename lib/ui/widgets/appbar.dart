@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-
-import 'package:flutterapp/domain/use_cases/controllers/ui.dart';
+import 'package:perspective_news/domain/use_cases/controllers/ui.dart';
 
 class CustomAppBar extends AppBar {
   final BuildContext context;
@@ -13,19 +12,12 @@ class CustomAppBar extends AppBar {
 
   // Creating a custom AppBar that extends from Appbar with super();
   CustomAppBar(
-      // {Key? key,
-      // required this.context,
-      // required this.controller,
-      // required this.picUrl,
-      // required this.tile,
-      // required this.onSignOff,
-      // this.home = true})
-      {Key key,
-      this.context,
-      this.controller,
-      this.picUrl,
-      this.tile,
-      this.onSignOff,
+      {Key? key,
+      required this.context,
+      required this.controller,
+      required this.picUrl,
+      required this.tile,
+      required this.onSignOff,
       this.home = true})
       : super(
           key: key,
@@ -42,8 +34,7 @@ class CustomAppBar extends AppBar {
             IconButton(
               key: const Key("themeAction"),
               icon: const Icon(
-                // Icons.brightness_4_rounded,
-                Icons.brightness_4_sharp,
+                Icons.brightness_4_rounded,
               ),
               onPressed: () {
                 controller.manager.changeTheme(isDarkMode: !Get.isDarkMode);

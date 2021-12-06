@@ -1,42 +1,33 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:flutterapp/ui/widgets/appbar.dart';
-import 'package:flutterapp/domain/use_cases/controllers/ui.dart';
-
-import 'package:flutterapp/ui/pages/GeneratedIntroWWidget.dart';
-
-import 'package:flutterapp/ui/pages/GeneratedChatIntoWidget.dart';
-import 'package:flutterapp/ui/pages/GeneratedPerfilWidget.dart';
-import 'package:flutterapp/ui/pages/GeneratedEstadosWidget.dart';
-import 'package:flutterapp/ui/pages/GeneratedRedWidget1.dart';
-
-// import 'package:red_egresados/domain/use_cases/controllers/authentication.dart';
-// import 'package:red_egresados/ui/pages/content/chats/chat_screen.dart';
-// import 'package:red_egresados/ui/pages/content/location/location_screen.dart';
-// import 'package:red_egresados/ui/pages/content/public_offers/public_offers_screen.dart';
-// import 'package:red_egresados/ui/pages/content/states/states_screen.dart';
-// import 'package:red_egresados/ui/pages/content/users_offers/users_offers_screen.dart';
-
-// import 'package:red_egresados/domain/use_cases/controllers/ui.dart';
-// import 'package:red_egresados/ui/widgets/appbar.dart';
+import 'package:perspective_news/domain/use_cases/controllers/authentication.dart';
+import 'package:perspective_news/domain/use_cases/controllers/ui.dart';
+import 'package:perspective_news/ui/pages/content/chats/chat_screen.dart';
+import 'package:perspective_news/ui/pages/content/location/location_screen.dart';
+import 'package:perspective_news/ui/pages/content/news/news_screen.dart';
+import 'package:perspective_news/ui/pages/content/public_offers/public_offers_screen.dart';
+import 'package:perspective_news/ui/pages/content/states/states_screen.dart';
+import 'package:perspective_news/ui/pages/content/users_offers/users_offers_screen.dart';
+import 'package:perspective_news/ui/widgets/appbar.dart';
 
 class ContentPage extends StatelessWidget {
-  const ContentPage({Key key}) : super(key: key);
-  // const ContentPage({Key? key}) : super(key: key);
+  const ContentPage({Key? key}) : super(key: key);
 
 // View content
   Widget _getScreen(int index) {
     switch (index) {
       case 1:
-        return GeneratedEstadosWidget();
+        return const UsersOffersScreen();
       case 2:
-        return GeneratedChatIntoWidget();
-
+        return const PublicOffersScreen();
       case 3:
-        return GeneratedRedWidget1();
-
+        return const NewsScreen();
+      case 4:
+        return const LocationScreen();
+      case 5:
+        return const UserMessages();
       default:
-        return GeneratedPerfilWidget();
+        return const StatesScreen();
     }
   }
 
@@ -46,17 +37,16 @@ class ContentPage extends StatelessWidget {
   Widget build(BuildContext context) {
     // Dependency injection: State management controller
     final UIController controller = Get.find<UIController>();
-    // final AuthController authController = Get.find<AuthController>();
+    final AuthController authController = Get.find<AuthController>();
 
     return Scaffold(
       appBar: CustomAppBar(
         context: context,
         controller: controller,
-        picUrl:
-            'https://uifaces.co/our-content/donated/4ea7ac4b3d0fe753f15daf5d8a7ef8c6.jpeg',
-        tile: const Text("Perspective News"),
+        picUrl: 'https://uifaces.co/our-content/donated/gPZwCbdS.jpg',
+        tile: const Text("Perspective NEWS"),
         onSignOff: () {
-          // authController.manager.signOut();
+          authController.manager.signOut();
         },
       ),
       body: SafeArea(
@@ -73,45 +63,45 @@ class ContentPage extends StatelessWidget {
             items: const <BottomNavigationBarItem>[
               BottomNavigationBarItem(
                 icon: Icon(
-                  Icons.engineering_sharp,
+                  Icons.lightbulb_outline_rounded,
                   key: Key("statesSection"),
                 ),
-                label: 'Perfil',
+                label: 'Estados',
               ),
               BottomNavigationBarItem(
                 icon: Icon(
-                  Icons.group_sharp,
+                  Icons.group_outlined,
                   key: Key("socialSection"),
                 ),
-                label: 'Estado',
-              ),
-              BottomNavigationBarItem(
-                icon: Icon(
-                  Icons.chat_rounded,
-                  key: Key("chat"),
-                ),
-                label: 'Chats',
+                label: 'Social',
               ),
               BottomNavigationBarItem(
                 icon: Icon(
                   Icons.public_outlined,
-                  key: Key("local"),
+                  key: Key("offersSection"),
                 ),
-                label: 'Localizacón',
+                label: 'Verificado',
               ),
-              // BottomNavigationBarItem(
-              //   icon: Icon(
-              //     Icons.place_outlined,
-              //     key: Key("locationSection"),
-              //   ),
-              //   label: 'Ubicación',
-              // ),
-              // BottomNavigationBarItem(
-              //   icon: Icon(
-              //     Icons.chat_bubble_outline,
-              //   ),
-              //   label: 'Mensajes',
-              // ),
+              BottomNavigationBarItem(
+                icon: Icon(
+                  Icons.article_outlined,
+                  key: Key("newsSection"),
+                ),
+                label: 'Noticias',
+              ),
+              BottomNavigationBarItem(
+                icon: Icon(
+                  Icons.place_outlined,
+                  key: Key("locationSection"),
+                ),
+                label: 'Ubicación',
+              ),
+              BottomNavigationBarItem(
+                icon: Icon(
+                  Icons.chat_bubble_outline,
+                ),
+                label: 'Mensajes',
+              ),
             ],
             currentIndex: controller.screenIndex,
             onTap: (index) {

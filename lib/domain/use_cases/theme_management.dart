@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:flutterapp/data/repositories/shared_preferences.dart';
+import 'package:perspective_news/data/repositories/shared_preferences.dart';
 
 class ThemeManager {
   final _sharedPreferences = LocalPreferences();
 
-  // Future<void> changeTheme({required isDarkMode}) async {
-  Future<void> changeTheme({isDarkMode}) async {
+  Future<void> changeTheme({required bool isDarkMode}) async {
     // Before change the theme we store the preference
     await _sharedPreferences.storeData<bool>('DarkTheme', isDarkMode);
     // We change the subject accordingly

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class AppTextStyle {
-  static String get fontFamily => GoogleFonts.openSans().fontFamily;
+  static String? get fontFamily => GoogleFonts.openSans().fontFamily;
   //static String? get fontFamily => GoogleFonts.yanoneKaffeesatz().fontFamily;
 
   // Google font

@@ -1,12 +1,11 @@
 import 'package:get/get.dart';
-import 'package:flutterapp/domain/use_cases/theme_management.dart';
+import 'package:perspective_news/domain/use_cases/theme_management.dart';
 
 class UIController extends GetxController {
   // Observables
   final _screenIndex = 0.obs;
   final _darkMode = false.obs;
-  ThemeManager _manager;
-  // late ThemeManager _manager;
+  late ThemeManager _manager;
 
   set screenIndex(int index) {
     _screenIndex.value = index;

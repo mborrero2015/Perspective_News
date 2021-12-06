@@ -1,13 +1,9 @@
-// import 'package:perspectivenews//domain/repositorires/shared_preferences.dart';
-// import 'package:shared_preferences/shared_preferences.dart';
-
-import 'package:flutterapp/domain/repositories/shared_preferences.dart';
+import 'package:perspective_news/domain/repositorires/shared_preferences.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class LocalPreferences implements SharedPreferencesInterface {
   @override
-  Future<T> retrieveData<T>(String key) async {
-    // Future<T?> retrieveData<T>(String key) async {
+  Future<T?> retrieveData<T>(String key) async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
     dynamic value;
     switch (T) {
@@ -27,7 +23,7 @@ class LocalPreferences implements SharedPreferencesInterface {
         value = prefs.getStringList(key);
         break;
     }
-    return value as T;
+    return value as T?;
   }
 
   @override
