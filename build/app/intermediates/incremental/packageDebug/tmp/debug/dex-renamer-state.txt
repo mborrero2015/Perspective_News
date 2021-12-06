@@ -1,4 +1,4 @@
-#Sun Dec 05 19:53:23 COT 2021
+#Sun Dec 05 20:58:50 COT 2021
 base.2=D\:\\Mintic Uninorte\\Ciclo 4\\Perspective_News\\build\\app\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
 base.1=D\:\\Mintic Uninorte\\Ciclo 4\\Perspective_News\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex
 base.0=D\:\\Mintic Uninorte\\Ciclo 4\\Perspective_News\\build\\app\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
