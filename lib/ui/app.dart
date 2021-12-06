@@ -48,7 +48,7 @@ class _AppState extends State<App> {
         if (snapshot.connectionState == ConnectionState.done) {
           _firebaseStateInit();
           return GetMaterialApp(
-            title: 'Red Egresados MinTIC',
+            title: 'Perspective NEWS',
             // Quitamos el banner DEBUG
             debugShowCheckedModeBanner: false,
             // Establecemos el tema claro

@@ -39,7 +39,9 @@ class _State extends State<LoginScreen> {
                   key: const Key("signInEmail"),
                   controller: emailController,
                   decoration: const InputDecoration(
-                    border: OutlineInputBorder(),
+                    border: OutlineInputBorder(
+                      borderRadius: BorderRadius.all(
+                        Radius.circular(20.0))),
                     labelText: 'Correo electrónico',
                   ),
                 ),
@@ -52,7 +54,9 @@ class _State extends State<LoginScreen> {
                   obscureText: true,
                   obscuringCharacter: "*",
                   decoration: const InputDecoration(
-                    border: OutlineInputBorder(),
+                    border: OutlineInputBorder(
+                      borderRadius: BorderRadius.all(
+                        Radius.circular(20.0))),
                     labelText: 'Clave',
                   ),
                 ),
@@ -63,7 +67,15 @@ class _State extends State<LoginScreen> {
                   Expanded(
                     child: Padding(
                       padding: const EdgeInsets.all(14.0),
-                      child: ElevatedButton(
+                      child: TextButton(
+                        style: ElevatedButton.styleFrom(
+                          shape: const StadiumBorder(
+                            side: BorderSide(
+                              color: Color.fromRGBO(255, 204, 0, 1),
+                              width: 2,
+                            ),
+                          ),
+                        ),
                         child: const Text("Login"),
                         onPressed: () async {
                           if (connectivityController.connected) {
