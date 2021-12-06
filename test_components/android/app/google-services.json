@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "413410781022",
+    "firebase_url": "https://perspective-news-default-rtdb.firebaseio.com",
+    "project_id": "perspective-news",
+    "storage_bucket": "perspective-news.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:413410781022:android:a9fdda8aefe8fa66d311cf",
+        "android_client_info": {
+          "package_name": "com.example.perspective_news"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "413410781022-ijap4va7n3l4f244qk940ecv6bn8veh1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.perspective_news",
+            "certificate_hash": "cdb9ce8899ce7a31f93b9e085dabac848b37aa38"
+          }
+        },
+        {
+          "client_id": "413410781022-gp7vdvus4t7i8stckjomhnqk3tulrhda.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsY4Fnan_2403mHPhgyL0CKqiqj6TeJYg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "413410781022-gp7vdvus4t7i8stckjomhnqk3tulrhda.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

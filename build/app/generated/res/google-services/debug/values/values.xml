@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">413410781022-gp7vdvus4t7i8stckjomhnqk3tulrhda.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://perspective-news-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">413410781022</string>
+    <string name="google_api_key" translatable="false">AIzaSyDsY4Fnan_2403mHPhgyL0CKqiqj6TeJYg</string>
+    <string name="google_app_id" translatable="false">1:413410781022:android:a9fdda8aefe8fa66d311cf</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDsY4Fnan_2403mHPhgyL0CKqiqj6TeJYg</string>
+    <string name="google_storage_bucket" translatable="false">perspective-news.appspot.com</string>
+    <string name="project_id" translatable="false">perspective-news</string>
+</resources>
