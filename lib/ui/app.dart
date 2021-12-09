@@ -14,6 +14,7 @@ import 'package:perspective_news/domain/use_cases/theme_management.dart';
 import 'package:perspective_news/ui/pages/authentication/auth_page.dart';
 import 'package:perspective_news/ui/pages/content/content_page.dart';
 import 'package:perspective_news/ui/theme/theme.dart';
+import 'package:perspective_news/domain/use_cases/controllers/chat_controller.dart';
 
 class App extends StatefulWidget {
   const App({Key? key}) : super(key: key);
@@ -48,7 +49,7 @@ class _AppState extends State<App> {
         if (snapshot.connectionState == ConnectionState.done) {
           _firebaseStateInit();
           return GetMaterialApp(
-            title: 'Red Egresados MinTIC',
+            title: 'Perspective NEWS',
             // Quitamos el banner DEBUG
             debugShowCheckedModeBanner: false,
             // Establecemos el tema claro
@@ -105,6 +106,8 @@ class _AppState extends State<App> {
       log("connection changed");
       connectivityController.connectivity = connectivityStatus;
     });
+
+    Get.put(ChatController());
   }
 
   _firebaseStateInit() {
