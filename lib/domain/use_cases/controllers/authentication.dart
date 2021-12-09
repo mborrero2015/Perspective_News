@@ -26,4 +26,14 @@ class AuthController extends GetxController {
   User? get currentUser => _currentUser.value;
 
   AuthManagement get manager => _manager;
+
+  String userEmail() {
+    String email = FirebaseAuth.instance.currentUser!.email ?? "a@a.com";
+    return email;
+  }
+
+  String getUid() {
+    String uid = FirebaseAuth.instance.currentUser!.uid;
+    return uid;
+  }
 }

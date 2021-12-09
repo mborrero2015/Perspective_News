@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:perspective_news/domain/use_cases/controllers/authentication.dart';
 import 'package:perspective_news/domain/use_cases/controllers/ui.dart';
-import 'package:perspective_news/ui/pages/content/chats/chat_screen.dart';
+import 'package:perspective_news/ui/pages/chat/chat_page_v2.dart';
+// import 'package:perspective_news/ui/pages/content/chats/chat_screen.dart';
 import 'package:perspective_news/ui/pages/content/location/location_screen.dart';
 import 'package:perspective_news/ui/pages/content/news/news_screen.dart';
 import 'package:perspective_news/ui/pages/content/public_offers/public_offers_screen.dart';
@@ -25,7 +26,8 @@ class ContentPage extends StatelessWidget {
       case 4:
         return const LocationScreen();
       case 5:
-        return const UserMessages();
+        // return const UserMessages();
+        return const ChatPageV2();
       default:
         return const StatesScreen();
     }
