@@ -1,30 +1,30 @@
 [
     {
-        "merged": "D:\\Mintic Uninorte\\Ciclo 4\\Perspective_News\\build\\app\\intermediates\\res\\merged\\debug\\drawable_app_icon.png.flat",
-        "source": "D:\\Mintic Uninorte\\Ciclo 4\\Perspective_News\\android\\app\\src\\main\\res\\drawable\\app_icon.png"
+        "merged": "U:\\ciclo4\\sesion6\\provider-sesion6\\Perspective_News\\build\\app\\intermediates\\res\\merged\\debug\\drawable_app_icon.png.flat",
+        "source": "U:\\ciclo4\\sesion6\\provider-sesion6\\Perspective_News\\android\\app\\src\\main\\res\\drawable\\app_icon.png"
     },
     {
-        "merged": "D:\\Mintic Uninorte\\Ciclo 4\\Perspective_News\\build\\app\\intermediates\\res\\merged\\debug\\drawable-v21_launch_background.xml.flat",
-        "source": "D:\\Mintic Uninorte\\Ciclo 4\\Perspective_News\\android\\app\\src\\main\\res\\drawable-v21\\launch_background.xml"
+        "merged": "U:\\ciclo4\\sesion6\\provider-sesion6\\Perspective_News\\build\\app\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "U:\\ciclo4\\sesion6\\provider-sesion6\\Perspective_News\\android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\Mintic Uninorte\\Ciclo 4\\Perspective_News\\build\\app\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "D:\\Mintic Uninorte\\Ciclo 4\\Perspective_News\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "U:\\ciclo4\\sesion6\\provider-sesion6\\Perspective_News\\build\\app\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "U:\\ciclo4\\sesion6\\provider-sesion6\\Perspective_News\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\Mintic Uninorte\\Ciclo 4\\Perspective_News\\build\\app\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "D:\\Mintic Uninorte\\Ciclo 4\\Perspective_News\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "U:\\ciclo4\\sesion6\\provider-sesion6\\Perspective_News\\build\\app\\intermediates\\res\\merged\\debug\\drawable-v21_launch_background.xml.flat",
+        "source": "U:\\ciclo4\\sesion6\\provider-sesion6\\Perspective_News\\android\\app\\src\\main\\res\\drawable-v21\\launch_background.xml"
     },
     {
-        "merged": "D:\\Mintic Uninorte\\Ciclo 4\\Perspective_News\\build\\app\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "D:\\Mintic Uninorte\\Ciclo 4\\Perspective_News\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "U:\\ciclo4\\sesion6\\provider-sesion6\\Perspective_News\\build\\app\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "U:\\ciclo4\\sesion6\\provider-sesion6\\Perspective_News\\android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\Mintic Uninorte\\Ciclo 4\\Perspective_News\\build\\app\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "D:\\Mintic Uninorte\\Ciclo 4\\Perspective_News\\android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "U:\\ciclo4\\sesion6\\provider-sesion6\\Perspective_News\\build\\app\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "U:\\ciclo4\\sesion6\\provider-sesion6\\Perspective_News\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\Mintic Uninorte\\Ciclo 4\\Perspective_News\\build\\app\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "D:\\Mintic Uninorte\\Ciclo 4\\Perspective_News\\android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "U:\\ciclo4\\sesion6\\provider-sesion6\\Perspective_News\\build\\app\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "U:\\ciclo4\\sesion6\\provider-sesion6\\Perspective_News\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     }
 ]

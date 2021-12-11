@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Mintic Uninorte\\Ciclo 4\\Perspective_News\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
+            "outputFile": "U:\\ciclo4\\sesion6\\provider-sesion6\\Perspective_News\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-2\\files-2.1\\6f2534f1f2bbd66fb94d498c11591b49\\work-runtime-2.4.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\mixmi\\.gradle\\caches\\transforms-2\\files-2.1\\6f2534f1f2bbd66fb94d498c11591b49\\work-runtime-2.4.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

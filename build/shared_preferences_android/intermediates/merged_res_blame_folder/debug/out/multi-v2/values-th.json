@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Mintic Uninorte\\Ciclo 4\\Perspective_News\\build\\shared_preferences_android\\intermediates\\res\\merged\\debug\\values-th\\values-th.xml",
+            "outputFile": "U:\\ciclo4\\sesion6\\provider-sesion6\\Perspective_News\\build\\shared_preferences_android\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-th\\values-th.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-2\\files-2.1\\02a42ef693c5c985b1507ed766db0626\\core-1.1.0\\res\\values-th\\values-th.xml",
+                    "source": "C:\\Users\\mixmi\\.gradle\\caches\\transforms-2\\files-2.1\\02a42ef693c5c985b1507ed766db0626\\core-1.1.0\\res\\values-th\\values-th.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -16,10 +16,10 @@
             ]
         },
         {
-            "outputFile": "D:\\Mintic Uninorte\\Ciclo 4\\Perspective_News\\build\\shared_preferences_android\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-th\\values-th.xml",
+            "outputFile": "U:\\ciclo4\\sesion6\\provider-sesion6\\Perspective_News\\build\\shared_preferences_android\\intermediates\\res\\merged\\debug\\values-th\\values-th.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-2\\files-2.1\\02a42ef693c5c985b1507ed766db0626\\core-1.1.0\\res\\values-th\\values-th.xml",
+                    "source": "C:\\Users\\mixmi\\.gradle\\caches\\transforms-2\\files-2.1\\02a42ef693c5c985b1507ed766db0626\\core-1.1.0\\res\\values-th\\values-th.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
