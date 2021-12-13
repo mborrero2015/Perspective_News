@@ -12,511 +12,530 @@
 12         to allow setting breakpoints, to provide hot reload, etc.
 13    -->
 14    <uses-permission android:name="android.permission.INTERNET" />
-14-->U:\ciclo4\sesion6\provider-sesion6\Perspective_News\android\app\src\debug\AndroidManifest.xml:6:5-66
-14-->U:\ciclo4\sesion6\provider-sesion6\Perspective_News\android\app\src\debug\AndroidManifest.xml:6:22-64
-15    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-15-->[:flutter_local_notifications] U:\ciclo4\sesion6\provider-sesion6\Perspective_News\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-81
-15-->[:flutter_local_notifications] U:\ciclo4\sesion6\provider-sesion6\Perspective_News\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-78
-16    <uses-permission android:name="android.permission.VIBRATE" />
-16-->[:flutter_local_notifications] U:\ciclo4\sesion6\provider-sesion6\Perspective_News\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-66
-16-->[:flutter_local_notifications] U:\ciclo4\sesion6\provider-sesion6\Perspective_News\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-63
-17    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
-17-->[:flutter_local_notifications] U:\ciclo4\sesion6\provider-sesion6\Perspective_News\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-81
-17-->[:flutter_local_notifications] U:\ciclo4\sesion6\provider-sesion6\Perspective_News\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:9:22-78
-18    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
-18-->[:flutter_local_notifications] U:\ciclo4\sesion6\provider-sesion6\Perspective_News\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-79
-18-->[:flutter_local_notifications] U:\ciclo4\sesion6\provider-sesion6\Perspective_News\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:10:22-76
-19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-19-->[:connectivity_plus] U:\ciclo4\sesion6\provider-sesion6\Perspective_News\build\connectivity_plus\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-79
-19-->[:connectivity_plus] U:\ciclo4\sesion6\provider-sesion6\Perspective_News\build\connectivity_plus\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-76
-20    <uses-permission android:name="android.permission.WAKE_LOCK" />
-20-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:25:5-68
-20-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:25:22-65
-21    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-21-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:28:5-77
-21-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:28:22-74
-22
-23    <application
-23-->U:\ciclo4\sesion6\provider-sesion6\Perspective_News\android\app\src\main\AndroidManifest.xml:3:4-40:19
-24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-24-->[androidx.core:core:1.3.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\fe267c16268ffec590807e14f12f56b4\core-1.3.0\AndroidManifest.xml:24:18-86
-25        android:debuggable="true"
-26        android:icon="@mipmap/ic_launcher"
-26-->U:\ciclo4\sesion6\provider-sesion6\Perspective_News\android\app\src\main\AndroidManifest.xml:5:9-43
-27        android:label="perspective_news" >
-27-->U:\ciclo4\sesion6\provider-sesion6\Perspective_News\android\app\src\main\AndroidManifest.xml:4:9-41
-28        <activity
-28-->U:\ciclo4\sesion6\provider-sesion6\Perspective_News\android\app\src\main\AndroidManifest.xml:6:9-34:20
-29            android:name="com.example.perspective_news.MainActivity"
-29-->U:\ciclo4\sesion6\provider-sesion6\Perspective_News\android\app\src\main\AndroidManifest.xml:7:13-41
-30            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-30-->U:\ciclo4\sesion6\provider-sesion6\Perspective_News\android\app\src\main\AndroidManifest.xml:10:13-163
-31            android:hardwareAccelerated="true"
-31-->U:\ciclo4\sesion6\provider-sesion6\Perspective_News\android\app\src\main\AndroidManifest.xml:11:13-47
-32            android:launchMode="singleTop"
-32-->U:\ciclo4\sesion6\provider-sesion6\Perspective_News\android\app\src\main\AndroidManifest.xml:8:13-43
-33            android:theme="@style/LaunchTheme"
-33-->U:\ciclo4\sesion6\provider-sesion6\Perspective_News\android\app\src\main\AndroidManifest.xml:9:13-47
-34            android:windowSoftInputMode="adjustResize" >
-34-->U:\ciclo4\sesion6\provider-sesion6\Perspective_News\android\app\src\main\AndroidManifest.xml:12:13-55
+14-->U:\ciclo4\sprint4\Perspective_News\android\app\src\main\AndroidManifest.xml:3:5-67
+14-->U:\ciclo4\sprint4\Perspective_News\android\app\src\main\AndroidManifest.xml:3:22-64
+15    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+15-->U:\ciclo4\sprint4\Perspective_News\android\app\src\main\AndroidManifest.xml:4:5-81
+15-->U:\ciclo4\sprint4\Perspective_News\android\app\src\main\AndroidManifest.xml:4:22-78
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->U:\ciclo4\sprint4\Perspective_News\android\app\src\main\AndroidManifest.xml:5:5-79
+16-->U:\ciclo4\sprint4\Perspective_News\android\app\src\main\AndroidManifest.xml:5:22-76
+17
+18    <queries>
+18-->U:\ciclo4\sprint4\Perspective_News\android\app\src\main\AndroidManifest.xml:6:5-12:15
+19
+20        <!-- If your app opens https URLs -->
+21        <intent>
+21-->U:\ciclo4\sprint4\Perspective_News\android\app\src\main\AndroidManifest.xml:8:9-11:18
+22            <action android:name="android.intent.action.VIEW" />
+22-->U:\ciclo4\sprint4\Perspective_News\android\app\src\main\AndroidManifest.xml:9:13-65
+22-->U:\ciclo4\sprint4\Perspective_News\android\app\src\main\AndroidManifest.xml:9:21-62
+23
+24            <data android:scheme="https" />
+24-->U:\ciclo4\sprint4\Perspective_News\android\app\src\main\AndroidManifest.xml:10:13-44
+24-->U:\ciclo4\sprint4\Perspective_News\android\app\src\main\AndroidManifest.xml:10:19-41
+25        </intent>
+26    </queries>
+27
+28    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+28-->[:flutter_local_notifications] U:\ciclo4\sprint4\Perspective_News\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-81
+28-->[:flutter_local_notifications] U:\ciclo4\sprint4\Perspective_News\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-78
+29    <uses-permission android:name="android.permission.VIBRATE" />
+29-->[:flutter_local_notifications] U:\ciclo4\sprint4\Perspective_News\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-66
+29-->[:flutter_local_notifications] U:\ciclo4\sprint4\Perspective_News\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-63
+30    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+30-->[:flutter_local_notifications] U:\ciclo4\sprint4\Perspective_News\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-81
+30-->[:flutter_local_notifications] U:\ciclo4\sprint4\Perspective_News\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:9:22-78
+31    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+31-->[:flutter_local_notifications] U:\ciclo4\sprint4\Perspective_News\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-79
+31-->[:flutter_local_notifications] U:\ciclo4\sprint4\Perspective_News\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:10:22-76
+32    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+32-->[:connectivity_plus] U:\ciclo4\sprint4\Perspective_News\build\connectivity_plus\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-79
+32-->[:connectivity_plus] U:\ciclo4\sprint4\Perspective_News\build\connectivity_plus\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-76
+33    <uses-permission android:name="android.permission.WAKE_LOCK" />
+33-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:25:5-68
+33-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:25:22-65
+34    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+34-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:28:5-77
+34-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:28:22-74
 35
-36            <!--
-37                 Specifies an Android theme to apply to this Activity as soon as
-38                 the Android process has started. This theme is visible to the user
-39                 while the Flutter UI initializes. After that, this theme continues
-40                 to determine the Window background behind the Flutter UI.
-41            -->
-42            <meta-data
-42-->U:\ciclo4\sesion6\provider-sesion6\Perspective_News\android\app\src\main\AndroidManifest.xml:17:13-20:17
-43                android:name="io.flutter.embedding.android.NormalTheme"
-43-->U:\ciclo4\sesion6\provider-sesion6\Perspective_News\android\app\src\main\AndroidManifest.xml:18:15-70
-44                android:resource="@style/NormalTheme" />
-44-->U:\ciclo4\sesion6\provider-sesion6\Perspective_News\android\app\src\main\AndroidManifest.xml:19:15-52
-45            <!--
-46                 Displays an Android View that continues showing the launch screen
-47                 Drawable until Flutter paints its first frame, then this splash
-48                 screen fades out. A splash screen is useful to avoid any visual
-49                 gap between the end of Android's launch screen and the painting of
-50                 Flutter's first frame.
-51            -->
-52            <meta-data
-52-->U:\ciclo4\sesion6\provider-sesion6\Perspective_News\android\app\src\main\AndroidManifest.xml:26:13-29:17
-53                android:name="io.flutter.embedding.android.SplashScreenDrawable"
-53-->U:\ciclo4\sesion6\provider-sesion6\Perspective_News\android\app\src\main\AndroidManifest.xml:27:15-79
-54                android:resource="@drawable/launch_background" />
-54-->U:\ciclo4\sesion6\provider-sesion6\Perspective_News\android\app\src\main\AndroidManifest.xml:28:15-61
-55
-56            <intent-filter>
-56-->U:\ciclo4\sesion6\provider-sesion6\Perspective_News\android\app\src\main\AndroidManifest.xml:30:13-33:29
-57                <action android:name="android.intent.action.MAIN" />
-57-->U:\ciclo4\sesion6\provider-sesion6\Perspective_News\android\app\src\main\AndroidManifest.xml:31:17-68
-57-->U:\ciclo4\sesion6\provider-sesion6\Perspective_News\android\app\src\main\AndroidManifest.xml:31:25-66
-58
-59                <category android:name="android.intent.category.LAUNCHER" />
-59-->U:\ciclo4\sesion6\provider-sesion6\Perspective_News\android\app\src\main\AndroidManifest.xml:32:17-76
-59-->U:\ciclo4\sesion6\provider-sesion6\Perspective_News\android\app\src\main\AndroidManifest.xml:32:27-74
-60            </intent-filter>
-61        </activity>
-62        <!--
-63             Don't delete the meta-data below.
-64             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
-65        -->
-66        <meta-data
-66-->U:\ciclo4\sesion6\provider-sesion6\Perspective_News\android\app\src\main\AndroidManifest.xml:37:9-39:33
-67            android:name="flutterEmbedding"
-67-->U:\ciclo4\sesion6\provider-sesion6\Perspective_News\android\app\src\main\AndroidManifest.xml:38:13-44
-68            android:value="2" />
-68-->U:\ciclo4\sesion6\provider-sesion6\Perspective_News\android\app\src\main\AndroidManifest.xml:39:13-30
-69
-70        <service
-70-->[:firebase_database] U:\ciclo4\sesion6\provider-sesion6\Perspective_News\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
-71            android:name="com.google.firebase.components.ComponentDiscoveryService"
-71-->[:firebase_database] U:\ciclo4\sesion6\provider-sesion6\Perspective_News\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-89
-72            android:directBootAware="true"
-72-->[com.google.firebase:firebase-common:20.0.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\eed6be46054f296cc81a62e81fdcac1a\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
-73            android:exported="false" >
-73-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:76:13-37
-74            <meta-data
-74-->[:firebase_database] U:\ciclo4\sesion6\provider-sesion6\Perspective_News\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
-75                android:name="com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar"
-75-->[:firebase_database] U:\ciclo4\sesion6\provider-sesion6\Perspective_News\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-127
-76                android:value="com.google.firebase.components.ComponentRegistrar" />
-76-->[:firebase_database] U:\ciclo4\sesion6\provider-sesion6\Perspective_News\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
-77            <meta-data
-77-->[:cloud_firestore] U:\ciclo4\sesion6\provider-sesion6\Perspective_News\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
-78                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
-78-->[:cloud_firestore] U:\ciclo4\sesion6\provider-sesion6\Perspective_News\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-134
-79                android:value="com.google.firebase.components.ComponentRegistrar" />
-79-->[:cloud_firestore] U:\ciclo4\sesion6\provider-sesion6\Perspective_News\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
-80            <meta-data
-80-->[:firebase_auth] U:\ciclo4\sesion6\provider-sesion6\Perspective_News\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
-81                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
-81-->[:firebase_auth] U:\ciclo4\sesion6\provider-sesion6\Perspective_News\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
-82                android:value="com.google.firebase.components.ComponentRegistrar" />
-82-->[:firebase_auth] U:\ciclo4\sesion6\provider-sesion6\Perspective_News\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
-83            <meta-data
-83-->[:firebase_core] U:\ciclo4\sesion6\provider-sesion6\Perspective_News\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
-84                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
-84-->[:firebase_core] U:\ciclo4\sesion6\provider-sesion6\Perspective_News\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
-85                android:value="com.google.firebase.components.ComponentRegistrar" />
-85-->[:firebase_core] U:\ciclo4\sesion6\provider-sesion6\Perspective_News\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
-86            <meta-data
-86-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:77:13-79:85
-87                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-87-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:78:17-109
-88                android:value="com.google.firebase.components.ComponentRegistrar" />
-88-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:79:17-82
-89            <meta-data
-89-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\bf0b1214d21c1615f4d4ef35d4ce099c\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:20:13-22:85
-90                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
-90-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\bf0b1214d21c1615f4d4ef35d4ce099c\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:21:17-111
-91                android:value="com.google.firebase.components.ComponentRegistrar" />
-91-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\bf0b1214d21c1615f4d4ef35d4ce099c\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:22:17-82
-92            <meta-data
-92-->[com.google.firebase:firebase-database:20.0.2] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\d7170304508d435135e95135d6ffe3df\jetified-firebase-database-20.0.2\AndroidManifest.xml:32:13-34:85
-93                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-93-->[com.google.firebase:firebase-database:20.0.2] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\d7170304508d435135e95135d6ffe3df\jetified-firebase-database-20.0.2\AndroidManifest.xml:33:17-109
-94                android:value="com.google.firebase.components.ComponentRegistrar" />
-94-->[com.google.firebase:firebase-database:20.0.2] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\d7170304508d435135e95135d6ffe3df\jetified-firebase-database-20.0.2\AndroidManifest.xml:34:17-82
-95        </service>
-96
-97        <receiver
-97-->[:flutter_local_notifications] U:\ciclo4\sesion6\provider-sesion6\Perspective_News\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:13:9-15:40
-98            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
-98-->[:flutter_local_notifications] U:\ciclo4\sesion6\provider-sesion6\Perspective_News\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-97
-99            android:exported="false" />
-99-->[:flutter_local_notifications] U:\ciclo4\sesion6\provider-sesion6\Perspective_News\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-37
-100        <receiver
-100-->[:flutter_local_notifications] U:\ciclo4\sesion6\provider-sesion6\Perspective_News\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-25:20
-101            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
-101-->[:flutter_local_notifications] U:\ciclo4\sesion6\provider-sesion6\Perspective_News\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-101
-102            android:exported="false" >
-102-->[:flutter_local_notifications] U:\ciclo4\sesion6\provider-sesion6\Perspective_News\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-37
-103            <intent-filter>
-103-->[:flutter_local_notifications] U:\ciclo4\sesion6\provider-sesion6\Perspective_News\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-24:29
-104                <action android:name="android.intent.action.BOOT_COMPLETED" />
-104-->[:flutter_local_notifications] U:\ciclo4\sesion6\provider-sesion6\Perspective_News\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:20:17-79
-104-->[:flutter_local_notifications] U:\ciclo4\sesion6\provider-sesion6\Perspective_News\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:20:25-76
-105                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
-105-->[:flutter_local_notifications] U:\ciclo4\sesion6\provider-sesion6\Perspective_News\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:21:17-84
-105-->[:flutter_local_notifications] U:\ciclo4\sesion6\provider-sesion6\Perspective_News\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:21:25-81
-106                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
-106-->[:flutter_local_notifications] U:\ciclo4\sesion6\provider-sesion6\Perspective_News\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:22:17-82
-106-->[:flutter_local_notifications] U:\ciclo4\sesion6\provider-sesion6\Perspective_News\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:22:25-79
-107                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
-107-->[:flutter_local_notifications] U:\ciclo4\sesion6\provider-sesion6\Perspective_News\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:23:17-82
-107-->[:flutter_local_notifications] U:\ciclo4\sesion6\provider-sesion6\Perspective_News\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:23:25-79
-108            </intent-filter>
-109        </receiver>
-110
-111        <activity
-111-->[:url_launcher_android] U:\ciclo4\sesion6\provider-sesion6\Perspective_News\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:74
-112            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
-112-->[:url_launcher_android] U:\ciclo4\sesion6\provider-sesion6\Perspective_News\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-74
-113            android:exported="false"
-113-->[:url_launcher_android] U:\ciclo4\sesion6\provider-sesion6\Perspective_News\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-37
-114            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
-114-->[:url_launcher_android] U:\ciclo4\sesion6\provider-sesion6\Perspective_News\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
-115        <activity
-115-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:27:9-44:20
-116            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
-116-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:28:13-80
-117            android:excludeFromRecents="true"
-117-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:29:13-46
-118            android:exported="true"
-118-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:30:13-36
-119            android:launchMode="singleTask"
-119-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:31:13-44
-120            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-120-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:32:13-72
-121            <intent-filter>
-121-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:33:13-43:29
-122                <action android:name="android.intent.action.VIEW" />
-122-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
-122-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
+36    <application
+36-->U:\ciclo4\sprint4\Perspective_News\android\app\src\main\AndroidManifest.xml:13:4-50:19
+37        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+37-->[androidx.core:core:1.3.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\fe267c16268ffec590807e14f12f56b4\core-1.3.0\AndroidManifest.xml:24:18-86
+38        android:debuggable="true"
+39        android:icon="@mipmap/ic_launcher"
+39-->U:\ciclo4\sprint4\Perspective_News\android\app\src\main\AndroidManifest.xml:15:9-43
+40        android:label="perspective_news" >
+40-->U:\ciclo4\sprint4\Perspective_News\android\app\src\main\AndroidManifest.xml:14:9-41
+41        <activity
+41-->U:\ciclo4\sprint4\Perspective_News\android\app\src\main\AndroidManifest.xml:16:9-44:20
+42            android:name="com.example.perspective_news.MainActivity"
+42-->U:\ciclo4\sprint4\Perspective_News\android\app\src\main\AndroidManifest.xml:17:13-41
+43            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+43-->U:\ciclo4\sprint4\Perspective_News\android\app\src\main\AndroidManifest.xml:20:13-163
+44            android:hardwareAccelerated="true"
+44-->U:\ciclo4\sprint4\Perspective_News\android\app\src\main\AndroidManifest.xml:21:13-47
+45            android:launchMode="singleTop"
+45-->U:\ciclo4\sprint4\Perspective_News\android\app\src\main\AndroidManifest.xml:18:13-43
+46            android:theme="@style/LaunchTheme"
+46-->U:\ciclo4\sprint4\Perspective_News\android\app\src\main\AndroidManifest.xml:19:13-47
+47            android:windowSoftInputMode="adjustResize" >
+47-->U:\ciclo4\sprint4\Perspective_News\android\app\src\main\AndroidManifest.xml:22:13-55
+48
+49            <!--
+50                 Specifies an Android theme to apply to this Activity as soon as
+51                 the Android process has started. This theme is visible to the user
+52                 while the Flutter UI initializes. After that, this theme continues
+53                 to determine the Window background behind the Flutter UI.
+54            -->
+55            <meta-data
+55-->U:\ciclo4\sprint4\Perspective_News\android\app\src\main\AndroidManifest.xml:27:13-30:17
+56                android:name="io.flutter.embedding.android.NormalTheme"
+56-->U:\ciclo4\sprint4\Perspective_News\android\app\src\main\AndroidManifest.xml:28:15-70
+57                android:resource="@style/NormalTheme" />
+57-->U:\ciclo4\sprint4\Perspective_News\android\app\src\main\AndroidManifest.xml:29:15-52
+58            <!--
+59                 Displays an Android View that continues showing the launch screen
+60                 Drawable until Flutter paints its first frame, then this splash
+61                 screen fades out. A splash screen is useful to avoid any visual
+62                 gap between the end of Android's launch screen and the painting of
+63                 Flutter's first frame.
+64            -->
+65            <meta-data
+65-->U:\ciclo4\sprint4\Perspective_News\android\app\src\main\AndroidManifest.xml:36:13-39:17
+66                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+66-->U:\ciclo4\sprint4\Perspective_News\android\app\src\main\AndroidManifest.xml:37:15-79
+67                android:resource="@drawable/launch_background" />
+67-->U:\ciclo4\sprint4\Perspective_News\android\app\src\main\AndroidManifest.xml:38:15-61
+68
+69            <intent-filter>
+69-->U:\ciclo4\sprint4\Perspective_News\android\app\src\main\AndroidManifest.xml:40:13-43:29
+70                <action android:name="android.intent.action.MAIN" />
+70-->U:\ciclo4\sprint4\Perspective_News\android\app\src\main\AndroidManifest.xml:41:17-68
+70-->U:\ciclo4\sprint4\Perspective_News\android\app\src\main\AndroidManifest.xml:41:25-66
+71
+72                <category android:name="android.intent.category.LAUNCHER" />
+72-->U:\ciclo4\sprint4\Perspective_News\android\app\src\main\AndroidManifest.xml:42:17-76
+72-->U:\ciclo4\sprint4\Perspective_News\android\app\src\main\AndroidManifest.xml:42:27-74
+73            </intent-filter>
+74        </activity>
+75        <!--
+76             Don't delete the meta-data below.
+77             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+78        -->
+79        <meta-data
+79-->U:\ciclo4\sprint4\Perspective_News\android\app\src\main\AndroidManifest.xml:47:9-49:33
+80            android:name="flutterEmbedding"
+80-->U:\ciclo4\sprint4\Perspective_News\android\app\src\main\AndroidManifest.xml:48:13-44
+81            android:value="2" />
+81-->U:\ciclo4\sprint4\Perspective_News\android\app\src\main\AndroidManifest.xml:49:13-30
+82
+83        <service
+83-->[:firebase_database] U:\ciclo4\sprint4\Perspective_News\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+84            android:name="com.google.firebase.components.ComponentDiscoveryService"
+84-->[:firebase_database] U:\ciclo4\sprint4\Perspective_News\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-89
+85            android:directBootAware="true"
+85-->[com.google.firebase:firebase-common:20.0.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\eed6be46054f296cc81a62e81fdcac1a\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+86            android:exported="false" >
+86-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:76:13-37
+87            <meta-data
+87-->[:firebase_database] U:\ciclo4\sprint4\Perspective_News\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+88                android:name="com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar"
+88-->[:firebase_database] U:\ciclo4\sprint4\Perspective_News\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-127
+89                android:value="com.google.firebase.components.ComponentRegistrar" />
+89-->[:firebase_database] U:\ciclo4\sprint4\Perspective_News\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+90            <meta-data
+90-->[:cloud_firestore] U:\ciclo4\sprint4\Perspective_News\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+91                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+91-->[:cloud_firestore] U:\ciclo4\sprint4\Perspective_News\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-134
+92                android:value="com.google.firebase.components.ComponentRegistrar" />
+92-->[:cloud_firestore] U:\ciclo4\sprint4\Perspective_News\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+93            <meta-data
+93-->[:firebase_auth] U:\ciclo4\sprint4\Perspective_News\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+94                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+94-->[:firebase_auth] U:\ciclo4\sprint4\Perspective_News\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
+95                android:value="com.google.firebase.components.ComponentRegistrar" />
+95-->[:firebase_auth] U:\ciclo4\sprint4\Perspective_News\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+96            <meta-data
+96-->[:firebase_core] U:\ciclo4\sprint4\Perspective_News\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+97                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+97-->[:firebase_core] U:\ciclo4\sprint4\Perspective_News\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
+98                android:value="com.google.firebase.components.ComponentRegistrar" />
+98-->[:firebase_core] U:\ciclo4\sprint4\Perspective_News\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+99            <meta-data
+99-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:77:13-79:85
+100                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+100-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:78:17-109
+101                android:value="com.google.firebase.components.ComponentRegistrar" />
+101-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:79:17-82
+102            <meta-data
+102-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\bf0b1214d21c1615f4d4ef35d4ce099c\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:20:13-22:85
+103                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+103-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\bf0b1214d21c1615f4d4ef35d4ce099c\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:21:17-111
+104                android:value="com.google.firebase.components.ComponentRegistrar" />
+104-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\bf0b1214d21c1615f4d4ef35d4ce099c\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:22:17-82
+105            <meta-data
+105-->[com.google.firebase:firebase-database:20.0.2] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\d7170304508d435135e95135d6ffe3df\jetified-firebase-database-20.0.2\AndroidManifest.xml:32:13-34:85
+106                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+106-->[com.google.firebase:firebase-database:20.0.2] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\d7170304508d435135e95135d6ffe3df\jetified-firebase-database-20.0.2\AndroidManifest.xml:33:17-109
+107                android:value="com.google.firebase.components.ComponentRegistrar" />
+107-->[com.google.firebase:firebase-database:20.0.2] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\d7170304508d435135e95135d6ffe3df\jetified-firebase-database-20.0.2\AndroidManifest.xml:34:17-82
+108        </service>
+109
+110        <receiver
+110-->[:flutter_local_notifications] U:\ciclo4\sprint4\Perspective_News\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:13:9-15:40
+111            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+111-->[:flutter_local_notifications] U:\ciclo4\sprint4\Perspective_News\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-97
+112            android:exported="false" />
+112-->[:flutter_local_notifications] U:\ciclo4\sprint4\Perspective_News\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-37
+113        <receiver
+113-->[:flutter_local_notifications] U:\ciclo4\sprint4\Perspective_News\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-25:20
+114            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+114-->[:flutter_local_notifications] U:\ciclo4\sprint4\Perspective_News\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-101
+115            android:exported="false" >
+115-->[:flutter_local_notifications] U:\ciclo4\sprint4\Perspective_News\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-37
+116            <intent-filter>
+116-->[:flutter_local_notifications] U:\ciclo4\sprint4\Perspective_News\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-24:29
+117                <action android:name="android.intent.action.BOOT_COMPLETED" />
+117-->[:flutter_local_notifications] U:\ciclo4\sprint4\Perspective_News\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:20:17-79
+117-->[:flutter_local_notifications] U:\ciclo4\sprint4\Perspective_News\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:20:25-76
+118                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+118-->[:flutter_local_notifications] U:\ciclo4\sprint4\Perspective_News\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:21:17-84
+118-->[:flutter_local_notifications] U:\ciclo4\sprint4\Perspective_News\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:21:25-81
+119                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+119-->[:flutter_local_notifications] U:\ciclo4\sprint4\Perspective_News\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:22:17-82
+119-->[:flutter_local_notifications] U:\ciclo4\sprint4\Perspective_News\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:22:25-79
+120                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+120-->[:flutter_local_notifications] U:\ciclo4\sprint4\Perspective_News\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:23:17-82
+120-->[:flutter_local_notifications] U:\ciclo4\sprint4\Perspective_News\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:23:25-79
+121            </intent-filter>
+122        </receiver>
 123
-124                <category android:name="android.intent.category.DEFAULT" />
-124-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
-124-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
-125                <category android:name="android.intent.category.BROWSABLE" />
-125-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
-125-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
-126
-127                <data
-127-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
-128                    android:host="firebase.auth"
-128-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
-129                    android:path="/"
-129-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
-130                    android:scheme="genericidp" />
-130-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
-131            </intent-filter>
-132        </activity>
-133        <activity
-133-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:45:9-62:20
-134            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
-134-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:46:13-79
-135            android:excludeFromRecents="true"
-135-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:47:13-46
-136            android:exported="true"
-136-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:48:13-36
-137            android:launchMode="singleTask"
-137-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:49:13-44
-138            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-138-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:50:13-72
-139            <intent-filter>
-139-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:51:13-61:29
-140                <action android:name="android.intent.action.VIEW" />
-140-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
-140-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
-141
-142                <category android:name="android.intent.category.DEFAULT" />
-142-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
-142-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
-143                <category android:name="android.intent.category.BROWSABLE" />
-143-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
-143-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
-144
-145                <data
-145-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
-146                    android:host="firebase.auth"
-146-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
-147                    android:path="/"
-147-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
-148                    android:scheme="recaptcha" />
-148-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
-149            </intent-filter>
-150        </activity>
-151
-152        <service
-152-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:64:9-73:19
-153            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
-153-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:65:13-101
-154            android:enabled="true"
-154-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:66:13-35
-155            android:exported="false" >
-155-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:67:13-37
-156            <intent-filter>
-156-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:68:13-72:29
-157                <action android:name="com.google.firebase.auth.api.gms.service.START" />
-157-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:17-89
-157-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:25-86
-158
-159                <category android:name="android.intent.category.DEFAULT" />
-159-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
-159-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
-160            </intent-filter>
-161        </service>
-162
-163        <provider
-163-->[com.google.firebase:firebase-common:20.0.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\eed6be46054f296cc81a62e81fdcac1a\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
-164            android:name="com.google.firebase.provider.FirebaseInitProvider"
-164-->[com.google.firebase:firebase-common:20.0.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\eed6be46054f296cc81a62e81fdcac1a\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
-165            android:authorities="com.example.perspective_news.firebaseinitprovider"
-165-->[com.google.firebase:firebase-common:20.0.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\eed6be46054f296cc81a62e81fdcac1a\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
-166            android:directBootAware="true"
-166-->[com.google.firebase:firebase-common:20.0.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\eed6be46054f296cc81a62e81fdcac1a\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
-167            android:exported="false"
-167-->[com.google.firebase:firebase-common:20.0.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\eed6be46054f296cc81a62e81fdcac1a\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
-168            android:initOrder="100" />
-168-->[com.google.firebase:firebase-common:20.0.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\eed6be46054f296cc81a62e81fdcac1a\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
-169        <provider
-169-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:31:9-37:35
-170            android:name="androidx.work.impl.WorkManagerInitializer"
-170-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:32:13-69
-171            android:authorities="com.example.perspective_news.workmanager-init"
-171-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:33:13-68
-172            android:directBootAware="false"
-172-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:34:13-44
-173            android:exported="false"
-173-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:35:13-37
-174            android:multiprocess="true" />
-174-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:36:13-40
+124        <activity
+124-->[:url_launcher_android] U:\ciclo4\sprint4\Perspective_News\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:74
+125            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+125-->[:url_launcher_android] U:\ciclo4\sprint4\Perspective_News\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-74
+126            android:exported="false"
+126-->[:url_launcher_android] U:\ciclo4\sprint4\Perspective_News\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-37
+127            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+127-->[:url_launcher_android] U:\ciclo4\sprint4\Perspective_News\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
+128        <activity
+128-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:27:9-44:20
+129            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+129-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:28:13-80
+130            android:excludeFromRecents="true"
+130-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:29:13-46
+131            android:exported="true"
+131-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:30:13-36
+132            android:launchMode="singleTask"
+132-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:31:13-44
+133            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+133-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:32:13-72
+134            <intent-filter>
+134-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:33:13-43:29
+135                <action android:name="android.intent.action.VIEW" />
+135-->U:\ciclo4\sprint4\Perspective_News\android\app\src\main\AndroidManifest.xml:9:13-65
+135-->U:\ciclo4\sprint4\Perspective_News\android\app\src\main\AndroidManifest.xml:9:21-62
+136
+137                <category android:name="android.intent.category.DEFAULT" />
+137-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+137-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+138                <category android:name="android.intent.category.BROWSABLE" />
+138-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+138-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+139
+140                <data
+140-->U:\ciclo4\sprint4\Perspective_News\android\app\src\main\AndroidManifest.xml:10:13-44
+141                    android:host="firebase.auth"
+142                    android:path="/"
+143                    android:scheme="genericidp" />
+143-->U:\ciclo4\sprint4\Perspective_News\android\app\src\main\AndroidManifest.xml:10:19-41
+144            </intent-filter>
+145        </activity>
+146        <activity
+146-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:45:9-62:20
+147            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+147-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:46:13-79
+148            android:excludeFromRecents="true"
+148-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:47:13-46
+149            android:exported="true"
+149-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:48:13-36
+150            android:launchMode="singleTask"
+150-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:49:13-44
+151            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+151-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:50:13-72
+152            <intent-filter>
+152-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:51:13-61:29
+153                <action android:name="android.intent.action.VIEW" />
+153-->U:\ciclo4\sprint4\Perspective_News\android\app\src\main\AndroidManifest.xml:9:13-65
+153-->U:\ciclo4\sprint4\Perspective_News\android\app\src\main\AndroidManifest.xml:9:21-62
+154
+155                <category android:name="android.intent.category.DEFAULT" />
+155-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+155-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+156                <category android:name="android.intent.category.BROWSABLE" />
+156-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+156-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+157
+158                <data
+158-->U:\ciclo4\sprint4\Perspective_News\android\app\src\main\AndroidManifest.xml:10:13-44
+159                    android:host="firebase.auth"
+160                    android:path="/"
+161                    android:scheme="recaptcha" />
+161-->U:\ciclo4\sprint4\Perspective_News\android\app\src\main\AndroidManifest.xml:10:19-41
+162            </intent-filter>
+163        </activity>
+164
+165        <service
+165-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:64:9-73:19
+166            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+166-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:65:13-101
+167            android:enabled="true"
+167-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:66:13-35
+168            android:exported="false" >
+168-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:67:13-37
+169            <intent-filter>
+169-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:68:13-72:29
+170                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+170-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:17-89
+170-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:25-86
+171
+172                <category android:name="android.intent.category.DEFAULT" />
+172-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+172-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\49dce84e663580cb650c1a7a49ff3c6a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+173            </intent-filter>
+174        </service>
 175
-176        <service
-176-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:39:9-44:35
-177            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
-177-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:40:13-88
-178            android:directBootAware="false"
-178-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:41:13-44
-179            android:enabled="@bool/enable_system_alarm_service_default"
-179-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:42:13-72
-180            android:exported="false" />
-180-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:43:13-37
-181        <service
-181-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:45:9-51:35
-182            android:name="androidx.work.impl.background.systemjob.SystemJobService"
-182-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:46:13-84
-183            android:directBootAware="false"
-183-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:47:13-44
-184            android:enabled="@bool/enable_system_job_service_default"
-184-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:48:13-70
-185            android:exported="true"
-185-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:49:13-36
-186            android:permission="android.permission.BIND_JOB_SERVICE" />
-186-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:50:13-69
-187        <service
-187-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:52:9-57:35
-188            android:name="androidx.work.impl.foreground.SystemForegroundService"
-188-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:53:13-81
-189            android:directBootAware="false"
-189-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:54:13-44
-190            android:enabled="@bool/enable_system_foreground_service_default"
-190-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:55:13-77
-191            android:exported="false" />
-191-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:56:13-37
-192
-193        <receiver
-193-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:59:9-64:35
-194            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
-194-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:60:13-88
-195            android:directBootAware="false"
-195-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:61:13-44
-196            android:enabled="true"
-196-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:62:13-35
-197            android:exported="false" />
-197-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:63:13-37
-198        <receiver
-198-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:65:9-75:20
-199            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
-199-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:66:13-106
-200            android:directBootAware="false"
-200-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:67:13-44
-201            android:enabled="false"
-201-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:68:13-36
-202            android:exported="false" >
-202-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:69:13-37
-203            <intent-filter>
-203-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:71:13-74:29
-204                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
-204-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:72:17-87
-204-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:72:25-84
-205                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
-205-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:73:17-90
-205-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:73:25-87
-206            </intent-filter>
-207        </receiver>
-208        <receiver
-208-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:76:9-86:20
-209            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
-209-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:77:13-104
-210            android:directBootAware="false"
-210-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:78:13-44
-211            android:enabled="false"
-211-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:79:13-36
-212            android:exported="false" >
-212-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:80:13-37
-213            <intent-filter>
-213-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:82:13-85:29
-214                <action android:name="android.intent.action.BATTERY_OKAY" />
-214-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:83:17-77
-214-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:83:25-74
-215                <action android:name="android.intent.action.BATTERY_LOW" />
-215-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:84:17-76
-215-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:84:25-73
-216            </intent-filter>
-217        </receiver>
-218        <receiver
-218-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:87:9-97:20
-219            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
-219-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:88:13-104
-220            android:directBootAware="false"
-220-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:89:13-44
-221            android:enabled="false"
-221-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:90:13-36
-222            android:exported="false" >
-222-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:91:13-37
-223            <intent-filter>
-223-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:93:13-96:29
-224                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
-224-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:94:17-83
-224-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:94:25-80
-225                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
-225-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:95:17-82
-225-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:95:25-79
-226            </intent-filter>
-227        </receiver>
-228        <receiver
-228-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:98:9-107:20
-229            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
-229-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:99:13-103
-230            android:directBootAware="false"
-230-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:100:13-44
-231            android:enabled="false"
-231-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:101:13-36
-232            android:exported="false" >
-232-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:102:13-37
-233            <intent-filter>
-233-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:104:13-106:29
-234                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
-234-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:105:17-79
-234-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:105:25-76
-235            </intent-filter>
-236        </receiver>
-237        <receiver
-237-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:108:9-119:20
-238            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
-238-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:109:13-88
-239            android:directBootAware="false"
-239-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:110:13-44
-240            android:enabled="false"
-240-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:111:13-36
-241            android:exported="false" >
-241-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:112:13-37
-242            <intent-filter>
-242-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:114:13-118:29
-243                <action android:name="android.intent.action.BOOT_COMPLETED" />
-243-->[:flutter_local_notifications] U:\ciclo4\sesion6\provider-sesion6\Perspective_News\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:20:17-79
-243-->[:flutter_local_notifications] U:\ciclo4\sesion6\provider-sesion6\Perspective_News\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:20:25-76
-244                <action android:name="android.intent.action.TIME_SET" />
-244-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:116:17-73
-244-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:116:25-70
-245                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
-245-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:117:17-81
-245-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:117:25-78
-246            </intent-filter>
-247        </receiver>
-248        <receiver
-248-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:120:9-129:20
-249            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
-249-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:121:13-99
-250            android:directBootAware="false"
-250-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:122:13-44
-251            android:enabled="@bool/enable_system_alarm_service_default"
-251-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:123:13-72
-252            android:exported="false" >
-252-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:124:13-37
-253            <intent-filter>
-253-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:126:13-128:29
-254                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
-254-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:127:17-98
-254-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:127:25-95
-255            </intent-filter>
-256        </receiver>
-257        <receiver
-257-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:130:9-140:20
-258            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
-258-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:131:13-78
-259            android:directBootAware="false"
-259-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:132:13-44
-260            android:enabled="true"
-260-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:133:13-35
-261            android:exported="true"
-261-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:134:13-36
-262            android:permission="android.permission.DUMP" >
-262-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:135:13-57
-263            <intent-filter>
-263-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:137:13-139:29
-264                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
-264-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:138:17-88
-264-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:138:25-85
-265            </intent-filter>
-266        </receiver>
-267
-268        <activity
-268-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\a6c39368265fdb7c1baae51a49c926b0\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
-269            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-269-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\a6c39368265fdb7c1baae51a49c926b0\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
-270            android:exported="false"
-270-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\a6c39368265fdb7c1baae51a49c926b0\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
-271            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-271-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\a6c39368265fdb7c1baae51a49c926b0\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
-272
-273        <meta-data
-273-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\feff8f13a1b1665d2db59876c232c133\jetified-play-services-basement-17.1.0\AndroidManifest.xml:23:9-25:69
-274            android:name="com.google.android.gms.version"
-274-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\feff8f13a1b1665d2db59876c232c133\jetified-play-services-basement-17.1.0\AndroidManifest.xml:24:13-58
-275            android:value="@integer/google_play_services_version" />
-275-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\feff8f13a1b1665d2db59876c232c133\jetified-play-services-basement-17.1.0\AndroidManifest.xml:25:13-66
-276
-277        <service
-277-->[androidx.room:room-runtime:2.2.5] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\ac75ac5ffdd8149bf807c1f0a9c94e50\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
-278            android:name="androidx.room.MultiInstanceInvalidationService"
-278-->[androidx.room:room-runtime:2.2.5] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\ac75ac5ffdd8149bf807c1f0a9c94e50\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
-279            android:directBootAware="true"
-279-->[androidx.room:room-runtime:2.2.5] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\ac75ac5ffdd8149bf807c1f0a9c94e50\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
-280            android:exported="false" />
-280-->[androidx.room:room-runtime:2.2.5] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\ac75ac5ffdd8149bf807c1f0a9c94e50\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
-281    </application>
-282
-283</manifest>
+176        <provider
+176-->[com.google.firebase:firebase-common:20.0.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\eed6be46054f296cc81a62e81fdcac1a\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+177            android:name="com.google.firebase.provider.FirebaseInitProvider"
+177-->[com.google.firebase:firebase-common:20.0.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\eed6be46054f296cc81a62e81fdcac1a\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+178            android:authorities="com.example.perspective_news.firebaseinitprovider"
+178-->[com.google.firebase:firebase-common:20.0.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\eed6be46054f296cc81a62e81fdcac1a\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+179            android:directBootAware="true"
+179-->[com.google.firebase:firebase-common:20.0.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\eed6be46054f296cc81a62e81fdcac1a\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+180            android:exported="false"
+180-->[com.google.firebase:firebase-common:20.0.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\eed6be46054f296cc81a62e81fdcac1a\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+181            android:initOrder="100" />
+181-->[com.google.firebase:firebase-common:20.0.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\eed6be46054f296cc81a62e81fdcac1a\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+182        <provider
+182-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:31:9-37:35
+183            android:name="androidx.work.impl.WorkManagerInitializer"
+183-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:32:13-69
+184            android:authorities="com.example.perspective_news.workmanager-init"
+184-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:33:13-68
+185            android:directBootAware="false"
+185-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:34:13-44
+186            android:exported="false"
+186-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:35:13-37
+187            android:multiprocess="true" />
+187-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:36:13-40
+188
+189        <service
+189-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:39:9-44:35
+190            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+190-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:40:13-88
+191            android:directBootAware="false"
+191-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:41:13-44
+192            android:enabled="@bool/enable_system_alarm_service_default"
+192-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:42:13-72
+193            android:exported="false" />
+193-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:43:13-37
+194        <service
+194-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:45:9-51:35
+195            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+195-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:46:13-84
+196            android:directBootAware="false"
+196-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:47:13-44
+197            android:enabled="@bool/enable_system_job_service_default"
+197-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:48:13-70
+198            android:exported="true"
+198-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:49:13-36
+199            android:permission="android.permission.BIND_JOB_SERVICE" />
+199-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:50:13-69
+200        <service
+200-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:52:9-57:35
+201            android:name="androidx.work.impl.foreground.SystemForegroundService"
+201-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:53:13-81
+202            android:directBootAware="false"
+202-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:54:13-44
+203            android:enabled="@bool/enable_system_foreground_service_default"
+203-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:55:13-77
+204            android:exported="false" />
+204-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:56:13-37
+205
+206        <receiver
+206-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:59:9-64:35
+207            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+207-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:60:13-88
+208            android:directBootAware="false"
+208-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:61:13-44
+209            android:enabled="true"
+209-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:62:13-35
+210            android:exported="false" />
+210-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:63:13-37
+211        <receiver
+211-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:65:9-75:20
+212            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+212-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:66:13-106
+213            android:directBootAware="false"
+213-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:67:13-44
+214            android:enabled="false"
+214-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:68:13-36
+215            android:exported="false" >
+215-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:69:13-37
+216            <intent-filter>
+216-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:71:13-74:29
+217                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+217-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:72:17-87
+217-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:72:25-84
+218                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+218-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:73:17-90
+218-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:73:25-87
+219            </intent-filter>
+220        </receiver>
+221        <receiver
+221-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:76:9-86:20
+222            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+222-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:77:13-104
+223            android:directBootAware="false"
+223-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:78:13-44
+224            android:enabled="false"
+224-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:79:13-36
+225            android:exported="false" >
+225-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:80:13-37
+226            <intent-filter>
+226-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:82:13-85:29
+227                <action android:name="android.intent.action.BATTERY_OKAY" />
+227-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:83:17-77
+227-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:83:25-74
+228                <action android:name="android.intent.action.BATTERY_LOW" />
+228-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:84:17-76
+228-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:84:25-73
+229            </intent-filter>
+230        </receiver>
+231        <receiver
+231-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:87:9-97:20
+232            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+232-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:88:13-104
+233            android:directBootAware="false"
+233-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:89:13-44
+234            android:enabled="false"
+234-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:90:13-36
+235            android:exported="false" >
+235-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:91:13-37
+236            <intent-filter>
+236-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:93:13-96:29
+237                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+237-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:94:17-83
+237-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:94:25-80
+238                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+238-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:95:17-82
+238-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:95:25-79
+239            </intent-filter>
+240        </receiver>
+241        <receiver
+241-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:98:9-107:20
+242            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+242-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:99:13-103
+243            android:directBootAware="false"
+243-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:100:13-44
+244            android:enabled="false"
+244-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:101:13-36
+245            android:exported="false" >
+245-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:102:13-37
+246            <intent-filter>
+246-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:104:13-106:29
+247                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+247-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:105:17-79
+247-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:105:25-76
+248            </intent-filter>
+249        </receiver>
+250        <receiver
+250-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:108:9-119:20
+251            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+251-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:109:13-88
+252            android:directBootAware="false"
+252-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:110:13-44
+253            android:enabled="false"
+253-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:111:13-36
+254            android:exported="false" >
+254-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:112:13-37
+255            <intent-filter>
+255-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:114:13-118:29
+256                <action android:name="android.intent.action.BOOT_COMPLETED" />
+256-->[:flutter_local_notifications] U:\ciclo4\sprint4\Perspective_News\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:20:17-79
+256-->[:flutter_local_notifications] U:\ciclo4\sprint4\Perspective_News\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:20:25-76
+257                <action android:name="android.intent.action.TIME_SET" />
+257-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:116:17-73
+257-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:116:25-70
+258                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+258-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:117:17-81
+258-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:117:25-78
+259            </intent-filter>
+260        </receiver>
+261        <receiver
+261-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:120:9-129:20
+262            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+262-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:121:13-99
+263            android:directBootAware="false"
+263-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:122:13-44
+264            android:enabled="@bool/enable_system_alarm_service_default"
+264-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:123:13-72
+265            android:exported="false" >
+265-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:124:13-37
+266            <intent-filter>
+266-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:126:13-128:29
+267                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+267-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:127:17-98
+267-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:127:25-95
+268            </intent-filter>
+269        </receiver>
+270        <receiver
+270-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:130:9-140:20
+271            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+271-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:131:13-78
+272            android:directBootAware="false"
+272-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:132:13-44
+273            android:enabled="true"
+273-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:133:13-35
+274            android:exported="true"
+274-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:134:13-36
+275            android:permission="android.permission.DUMP" >
+275-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:135:13-57
+276            <intent-filter>
+276-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:137:13-139:29
+277                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+277-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:138:17-88
+277-->[androidx.work:work-runtime:2.4.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\6f2534f1f2bbd66fb94d498c11591b49\work-runtime-2.4.0\AndroidManifest.xml:138:25-85
+278            </intent-filter>
+279        </receiver>
+280
+281        <activity
+281-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\a6c39368265fdb7c1baae51a49c926b0\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+282            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+282-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\a6c39368265fdb7c1baae51a49c926b0\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+283            android:exported="false"
+283-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\a6c39368265fdb7c1baae51a49c926b0\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+284            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+284-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\a6c39368265fdb7c1baae51a49c926b0\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+285
+286        <meta-data
+286-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\feff8f13a1b1665d2db59876c232c133\jetified-play-services-basement-17.1.0\AndroidManifest.xml:23:9-25:69
+287            android:name="com.google.android.gms.version"
+287-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\feff8f13a1b1665d2db59876c232c133\jetified-play-services-basement-17.1.0\AndroidManifest.xml:24:13-58
+288            android:value="@integer/google_play_services_version" />
+288-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\feff8f13a1b1665d2db59876c232c133\jetified-play-services-basement-17.1.0\AndroidManifest.xml:25:13-66
+289
+290        <service
+290-->[androidx.room:room-runtime:2.2.5] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\ac75ac5ffdd8149bf807c1f0a9c94e50\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+291            android:name="androidx.room.MultiInstanceInvalidationService"
+291-->[androidx.room:room-runtime:2.2.5] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\ac75ac5ffdd8149bf807c1f0a9c94e50\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+292            android:directBootAware="true"
+292-->[androidx.room:room-runtime:2.2.5] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\ac75ac5ffdd8149bf807c1f0a9c94e50\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+293            android:exported="false" />
+293-->[androidx.room:room-runtime:2.2.5] C:\Users\mixmi\.gradle\caches\transforms-2\files-2.1\ac75ac5ffdd8149bf807c1f0a9c94e50\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+294    </application>
+295
+296</manifest>

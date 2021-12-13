@@ -11,8 +11,12 @@ import 'package:get/get.dart';
 import 'package:mockito/mockito.dart';
 import 'package:perspective_news/domain/use_cases/controllers/authentication.dart';
 import 'package:perspective_news/domain/use_cases/controllers/connectivity.dart';
+import 'package:perspective_news/domain/use_cases/controllers/location.dart';
+import 'package:perspective_news/domain/use_cases/controllers/notification.dart';
+import 'package:perspective_news/domain/use_cases/controllers/permissions.dart';
 import 'package:perspective_news/domain/use_cases/controllers/ui.dart';
 import 'package:perspective_news/ui/pages/authentication/login/login_screen.dart';
+import 'package:perspective_news/ui/pages/content/chats/chat_screen.dart';
 import 'package:perspective_news/ui/pages/content/content_page.dart';
 
 // import 'package:perspective_news/ui/app.dart';
@@ -45,10 +49,14 @@ void main() {
     Get.put(AuthController());
     Get.put(UIController());
     Get.put(ConnectivityController());
-    await tester.pumpWidget(MaterialApp(
-        home: Scaffold(
-      body: LocationScreen(),
-    )));
+    Get.put(PermissionsController());
+    Get.put(LocationController());
+    Get.put(NotificationController());
+
+    // await tester.pumpWidget(MaterialApp(
+    //     home: Scaffold(
+    //   body: LocationScreen(),
+    // )));
 
     await tester.pumpWidget(MaterialApp(
         home: Scaffold(
@@ -63,19 +71,19 @@ void main() {
     )));
 
     expect(find.text('entrada'), findsNothing);
-//introducir texto en login
+// //introducir texto en login
     await tester.enterText(find.byKey(const Key("signInPassword")), 'Usuario1');
     await tester.pump(const Duration(seconds: 10));
     await tester.enterText(find.byKey(const Key("signInEmail")), 'Usuario1');
     await tester.pump();
 
-    // debugDumpApp();
+//     // debugDumpApp();
     expect(find.byKey(ValueKey('signInEmail')), findsOneWidget);
 
     // await tester.pumpAndSettle();
     // await tester.tap(find.byKey(const Key("Login")));
 
-// await tester.enterText(find.byKey(const Key('signInEmail')),'Usuario1');
+await tester.enterText(find.byKey(const Key('signInEmail')),'Usuario1');
 
 // key: const Key("signInEmail")
     // // Tap the '+' icon and trigger a frame.

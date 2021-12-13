@@ -1,8 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "U:\\ciclo4\\sesion6\\provider-sesion6\\Perspective_News\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "U:\\ciclo4\\sprint4\\Perspective_News\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
+                {
+                    "source": "U:\\ciclo4\\sprint4\\Perspective_News\\build\\app\\generated\\res\\google-services\\debug\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,199,323,405,509,618,738,838",
+                        "endColumns": "143,123,81,103,108,119,99,76",
+                        "endOffsets": "194,318,400,504,613,733,833,910"
+                    },
+                    "to": {
+                        "startLines": "123,124,125,126,127,128,129,130",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "8976,9120,9244,9326,9430,9539,9659,9759",
+                        "endColumns": "143,123,81,103,108,119,99,76",
+                        "endOffsets": "9115,9239,9321,9425,9534,9654,9754,9831"
+                    }
+                },
                 {
                     "source": "C:\\Users\\mixmi\\.gradle\\caches\\transforms-2\\files-2.1\\1d33909f234eca3bfc376f0165f9dc82\\browser-1.0.0\\res\\values\\values.xml",
                     "from": {
@@ -38,24 +55,7 @@
                     }
                 },
                 {
-                    "source": "U:\\ciclo4\\sesion6\\provider-sesion6\\Perspective_News\\build\\app\\generated\\res\\google-services\\debug\\values\\values.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,199,323,405,509,618,738,838",
-                        "endColumns": "143,123,81,103,108,119,99,76",
-                        "endOffsets": "194,318,400,504,613,733,833,910"
-                    },
-                    "to": {
-                        "startLines": "123,124,125,126,127,128,129,130",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "8976,9120,9244,9326,9430,9539,9659,9759",
-                        "endColumns": "143,123,81,103,108,119,99,76",
-                        "endOffsets": "9115,9239,9321,9425,9534,9654,9754,9831"
-                    }
-                },
-                {
-                    "source": "U:\\ciclo4\\sesion6\\provider-sesion6\\Perspective_News\\android\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "U:\\ciclo4\\sprint4\\Perspective_News\\android\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "U:\\ciclo4\\sesion6\\provider-sesion6\\Perspective_News\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
+            "outputFile": "U:\\ciclo4\\sprint4\\Perspective_News\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
             "map": [
                 {
-                    "source": "U:\\ciclo4\\sesion6\\provider-sesion6\\Perspective_News\\android\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "source": "U:\\ciclo4\\sprint4\\Perspective_News\\android\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
