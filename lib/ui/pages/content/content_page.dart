@@ -6,7 +6,7 @@ import 'package:perspective_news/ui/pages/chat/chat_page_v2.dart';
 // import 'package:perspective_news/ui/pages/content/chats/chat_screen.dart';
 import 'package:perspective_news/ui/pages/content/location/location_screen.dart';
 import 'package:perspective_news/ui/pages/content/news/news_screen.dart';
-import 'package:perspective_news/ui/pages/content/public_offers/public_offers_screen.dart';
+// import 'package:perspective_news/ui/pages/content/public_offers/public_offers_screen.dart';
 import 'package:perspective_news/ui/pages/content/states/states_screen.dart';
 import 'package:perspective_news/ui/pages/content/users_offers/users_offers_screen.dart';
 import 'package:perspective_news/ui/widgets/appbar.dart';
@@ -19,13 +19,13 @@ class ContentPage extends StatelessWidget {
     switch (index) {
       case 1:
         return const UsersOffersScreen();
+      // case 2:
+        // return const PublicOffersScreen();
       case 2:
-        return const PublicOffersScreen();
-      case 3:
         return const NewsScreen();
+      case 3:
+        return LocationScreen();
       case 4:
-        return const LocationScreen();
-      case 5:
         // return const UserMessages();
         return const ChatPageV2();
       default:
@@ -77,13 +77,13 @@ class ContentPage extends StatelessWidget {
                 ),
                 label: 'Social',
               ),
-              BottomNavigationBarItem(
-                icon: Icon(
-                  Icons.public_outlined,
-                  key: Key("offersSection"),
-                ),
-                label: 'Verificado',
-              ),
+              // BottomNavigationBarItem(
+              //   icon: Icon(
+              //     Icons.public_outlined,
+              //     key: Key("offersSection"),
+              //   ),
+              //   label: 'Verificado',
+              // ),
               BottomNavigationBarItem(
                 icon: Icon(
                   Icons.article_outlined,

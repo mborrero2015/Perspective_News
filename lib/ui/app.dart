@@ -9,7 +9,11 @@ import 'package:perspective_news/domain/repositorires/auth.dart';
 import 'package:perspective_news/domain/use_cases/auth_management.dart';
 import 'package:perspective_news/domain/use_cases/controllers/authentication.dart';
 import 'package:perspective_news/domain/use_cases/controllers/connectivity.dart';
+import 'package:perspective_news/domain/use_cases/controllers/location.dart';
+import 'package:perspective_news/domain/use_cases/controllers/notification.dart';
+import 'package:perspective_news/domain/use_cases/controllers/permissions.dart';
 import 'package:perspective_news/domain/use_cases/controllers/ui.dart';
+import 'package:perspective_news/domain/use_cases/permission_management.dart';
 import 'package:perspective_news/domain/use_cases/theme_management.dart';
 import 'package:perspective_news/ui/pages/authentication/auth_page.dart';
 import 'package:perspective_news/ui/pages/content/content_page.dart';
@@ -85,6 +89,10 @@ class _AppState extends State<App> {
       uiController.manager.changeTheme(isDarkMode: isDarkMode);
     });
 
+    PermissionsController permissionsController =
+        Get.put(PermissionsController());
+    permissionsController.permissionManager = PermissionManager();
+
     // Auth Controller
     AuthController authController = Get.put(AuthController());
 
@@ -108,6 +116,12 @@ class _AppState extends State<App> {
     });
 
     Get.put(ChatController());
+
+    Get.put(LocationController());
+    // Notification controller
+    NotificationController notificationController =
+        Get.put(NotificationController());
+    notificationController.initialize();
   }
 
   _firebaseStateInit() {
