@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Mintic Uninorte\\Ciclo 4\\Perspective_News\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
+            "outputFile": "D:\\mision mintic 2022\\ciclo4_Desarrollo movil\\ejemplo git\\Perspective_News\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
             "map": [
                 {
-                    "source": "D:\\Mintic Uninorte\\Ciclo 4\\Perspective_News\\android\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "source": "D:\\mision mintic 2022\\ciclo4_Desarrollo movil\\ejemplo git\\Perspective_News\\android\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Mintic Uninorte\\Ciclo 4\\Perspective_News\\build\\path_provider_android\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
+            "outputFile": "D:\\mision mintic 2022\\ciclo4_Desarrollo movil\\ejemplo git\\Perspective_News\\build\\path_provider_android\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-2\\files-2.1\\02a42ef693c5c985b1507ed766db0626\\core-1.1.0\\res\\values-v21\\values-v21.xml",
+                    "source": "C:\\Users\\Juan David Barrera C\\.gradle\\caches\\transforms-2\\files-2.1\\02a42ef693c5c985b1507ed766db0626\\core-1.1.0\\res\\values-v21\\values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,13",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -17,10 +17,10 @@
             ]
         },
         {
-            "outputFile": "D:\\Mintic Uninorte\\Ciclo 4\\Perspective_News\\build\\path_provider_android\\intermediates\\res\\merged\\debug\\values-v21\\values-v21.xml",
+            "outputFile": "D:\\mision mintic 2022\\ciclo4_Desarrollo movil\\ejemplo git\\Perspective_News\\build\\path_provider_android\\intermediates\\res\\merged\\debug\\values-v21\\values-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-2\\files-2.1\\02a42ef693c5c985b1507ed766db0626\\core-1.1.0\\res\\values-v21\\values-v21.xml",
+                    "source": "C:\\Users\\Juan David Barrera C\\.gradle\\caches\\transforms-2\\files-2.1\\02a42ef693c5c985b1507ed766db0626\\core-1.1.0\\res\\values-v21\\values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,13",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
